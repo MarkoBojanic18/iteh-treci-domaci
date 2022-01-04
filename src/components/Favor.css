@@ -49,6 +49,11 @@
   margin: 3rem auto;
 }
 
+.pricing .bottom-content .cikica {
+  height: 150px;
+  width: 150px;
+}
+
 .pricing .card {
   display: flex;
   flex-direction: column;

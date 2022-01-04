@@ -2,6 +2,8 @@ import React from 'react'
 import './Favor.css'
 import { Link } from 'react-router-dom'
 import chart from '../assest/chart.png'
+import cikica from '../assest/cikica.png'
+
 
 const Favor = () => {
     return (
@@ -30,6 +32,9 @@ const Favor = () => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
                             soluta, temporibus ea est ipsum vero recusandae blanditiis ut
                             doloribus excepturi!</p>
+                             
+                            <Link to='/'><img className='cikica' src={cikica} alt='' /></Link>
+                             
                     </div>
                     <div className='card'>
                         <div>

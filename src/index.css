@@ -1,12 +1,12 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
 
-:root{
+:root {
   --primary: #6948ff;
   --secondary: #553bcb;
   --darkgrey: #22262a;
@@ -14,32 +14,30 @@
   --grey: #808080;
 }
 
-
 body {
- color: #333;
- font-family: 'Montserrat',sans-serif;
-  
+  color: #333;
+  font-family: "Montserrat", sans-serif;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
   columns: #fff;
 }
 
-.primary-color{
+.primary-color {
   color: var(--primary);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.button{
+button {
   width: 100%;
   padding: 8px 0;
   border-radius: 4px;
@@ -49,7 +47,7 @@ code {
   cursor: pointer;
 }
 
-.button:hover{
+button:hover {
   border: 1px solid var(--secondary);
   background-color: var(--secondary);
 }

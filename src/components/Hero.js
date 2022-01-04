@@ -34,7 +34,7 @@ const Hero = () => {
                         <div className='used-by'>
                             <p>USED BY</p>
                             <div className='icons'>
-                                <i><FaDatabase /> Staxx</i>
+                                <i><FaDatabase /> SportLine</i>
                                 <i><FaAsterisk /> Star</i>
                                 <i><FaAccusoft /> Accusoft</i>
                             </div>
