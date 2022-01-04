@@ -15,7 +15,7 @@ const Testimonials = () => {
                             officiis inventore magni.
                         </p>
                         <div className='name'>
-                            <p>Marie Chilvers</p>
+                            <p>Marija Bojanic</p>
                             <p>CEO, SportLine</p>
                         </div>
                     </div>

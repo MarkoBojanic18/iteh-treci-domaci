@@ -5,7 +5,10 @@ import Hero from './Hero'
 import Pricing from "./Pricing";
 import Favor from "./Favor";
 import Testimonials from "./Testimonials";
-
+import Faq from "./Faq";
+import Contact from "./Contact";
+import Discount from "./Discount";
+ 
 
 const Home = () => {
     return (
@@ -13,8 +16,12 @@ const Home = () => {
             <Navbar />
             <Hero />
             <Pricing />
+            <Discount />
             <Favor />
             <Testimonials />
+            <Faq />
+            <Contact />
+            
         </div>
     )
 }
