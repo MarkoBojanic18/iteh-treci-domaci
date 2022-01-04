@@ -47,6 +47,15 @@
   padding-right: 1rem;
 }
 
+.main-picture {
+  display: flex;
+  align-items: center;
+}
+
+.main-picture img {
+  height: 350px;
+}
+
 .hero .col-2 {
   padding: 1rem;
   height: 70vh;
@@ -117,6 +126,35 @@ form input {
 
 .form-footer span {
   font-weight: 500;
+}
+
+.brends {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  width: 90%;
+  margin-left: 80px;
+}
+
+.brends img {
+  max-width: 150px;
+  max-height: 100px;
+  transform-origin: center;
+  transform: perspective(800px) rotateY(20deg);
+  transition: 0.5s;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, transparent, #0004);
+}
+
+.brends:hover img {
+  opacity: 0.1;
+}
+
+.brends img:hover {
+  transform: perspective(100px) rotateY(20deg);
+  opacity: 1;
 }
 
 @media screen and (max-width: 960px) {

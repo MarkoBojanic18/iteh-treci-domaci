@@ -1,6 +1,24 @@
 import React from 'react'
 import { FaDatabase, FaAsterisk, FaAccusoft, FaFacebook, FaTwitter, FaGithub } from 'react-icons/fa'
 import './HeroStyle.css'
+import { Link } from 'react-router-dom'
+import mainPicture from '../assest/main.png'
+import bitcoin from '../assest/bitcoin.png'
+import ethereum from '../assest/Ethereum.png'
+import solana from '../assest/solana.png'
+import cardano from '../assest/cardano.png'
+import tether from '../assest/tether.png'
+import binanceCoin from '../assest/binanceCoin.png'
+import usdCoin from '../assest/usdCoin.png'
+import polkadot from '../assest/polkadot.png'
+
+
+
+
+
+
+
+
 
 const Hero = () => {
     return (
@@ -9,10 +27,10 @@ const Hero = () => {
                 <div className='content'>
                     <div className='col-1'>
                         <h1>Data to enrich your</h1>
-                        <h1><span className='primary-color'>Online business</span></h1>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
+                        <h1><span className='primary-color'>Online trading</span></h1>
+                        <div className='main-picture'>
+                            <Link to='/'><img src={mainPicture} alt='' /></Link>
+                        </div>
                         <div className='used-by'>
                             <p>USED BY</p>
                             <div className='icons'>
@@ -53,7 +71,16 @@ const Hero = () => {
 
             </div>
 
-
+            <div className="brends">
+            <Link to='/'><img src={bitcoin} alt='' /></Link>
+            <Link to='/'><img src={ethereum} alt='' /></Link>
+            <Link to='/'><img src={solana} alt='' /></Link>
+            <Link to='/'><img src={cardano} alt='' /></Link>
+            <Link to='/'><img src={tether} alt='' /></Link>
+            <Link to='/'><img src={binanceCoin} alt='' /></Link>
+            <Link to='/'><img src={usdCoin} alt='' /></Link>
+            <Link to='/'><img src={polkadot} alt='' /></Link>
+            </div>
         </div>
     )
 }
