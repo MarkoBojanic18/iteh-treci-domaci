@@ -1,5 +1,7 @@
 import React from 'react'
 import './Favor.css'
+import { Link } from 'react-router-dom'
+import chart from '../assest/chart.png'
 
 const Favor = () => {
     return (
@@ -10,10 +12,17 @@ const Favor = () => {
                         <h2>Everything you need for <span>$99 a month</span></h2>
                         <p>Includes every feature we offer plus unlimited projects and unlimited users.</p>
                     </div>
+                    
                     <div className='btn-div'>
                         <button>Get started today</button>
+                        
                     </div>
+                    <div className='chart'>
+                            <Link to='/'><img src={chart} alt='' /></Link>
+                        </div>
                 </div>
+
+               
                 <div className='bottom-content'>
                     <div className='card'>
                         <p><span>Everything you need</span></p>

@@ -1,6 +1,8 @@
 .pricing {
   width: 100%;
   margin-top: 5rem;
+  background-color: #22262a;
+  color: #d3d3d3;
 }
 
 .pricing .container {
@@ -10,10 +12,21 @@
   overflow: hidden;
 }
 
+.chart {
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+
+.chart img {
+  align-items: center;
+  height: 300px;
+}
+
 .pricing .top-content {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  border-bottom: 1px solid var(--lightgrey);
+  border-bottom: 1px solid #d3d3d3;
   padding-bottom: 3rem;
 }
 
@@ -26,7 +39,7 @@
   color: var(--primary);
 }
 .pricing .top-content p {
-  color: var(--grey);
+  color: #d3d3d3;
 }
 
 .pricing .bottom-content {
@@ -44,7 +57,7 @@
 
 .pricing .card div {
   display: flex;
-  border-bottom: 1px solid var(--lightgrey);
+  border-bottom: 1px solid #d3d3d3;
   padding: 1rem 0;
 }
 
@@ -53,7 +66,7 @@
 }
 
 .pricing .card span {
-  color: var(--primary);
+  color: #d3d3d3;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
