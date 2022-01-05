@@ -8,6 +8,8 @@ import Testimonials from "./Testimonials";
 import Faq from "./Faq";
 import Contact from "./Contact";
 import Discount from "./Discount";
+import Footer from "./Footer";
+
  
 
 const Home = () => {
@@ -21,6 +23,8 @@ const Home = () => {
             <Testimonials />
             <Faq />
             <Contact />
+            <Footer />
+
             
         </div>
     )
