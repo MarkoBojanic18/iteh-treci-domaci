@@ -28,6 +28,9 @@ const Navbar = () => {
                     <li className='nav-item'>
                         <Link to='/contact' className='nav-link'>Contact</Link>
                     </li>
+                    <li className='nav-item'>
+                        <Link to='/currency' className='nav-link'>Currency Converter</Link>
+                    </li>
 
                 </ul>
                 <div className='hamburger' onClick={handleClick}>
