@@ -5,7 +5,7 @@ import tree from '../assest/christmasTree.png'
 
 
 const Discount = () => {
-    var countDate = new Date('Jan 15, 2022 00:00:00').getTime();
+    var countDate = new Date('Jan 20, 2022 00:00:00').getTime();
 function endOfDiscout() {
     var now = new Date().getTime();
     var gap = countDate - now;
